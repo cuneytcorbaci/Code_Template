@@ -1,2 +1,2 @@
-# Softare_template
+# Software Template
 Software Project Template

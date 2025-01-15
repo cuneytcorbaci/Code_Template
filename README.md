@@ -10,3 +10,13 @@ To enable detailed error reporting in PHP, include the following code at the beg
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
+
+
+## PHP Server Info
+
+```php
+phpinfo();
+
+echo '<pre>';
+    print_r($_SERVER);
+echo '<pre>';
